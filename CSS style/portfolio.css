@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* hearder and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+.btn-primary {
+    height: 65px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5PX;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* section styles   */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFF8F3;
+
+
+}
+
+
+.about {
+    margin: 150px 100px;
+    padding: 150px 50px;
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF8F3;
+
+
+
+}
+
+.section-title {
+
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #757575;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.about-info-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+
+}
+
+.about-info-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
