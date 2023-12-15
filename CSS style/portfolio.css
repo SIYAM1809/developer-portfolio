@@ -157,3 +157,24 @@ main {
 .section-title{
     text-align: center;
 }
+.resume-content{
+    display: flex;
+}
+.resume.title{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume.sub-title{
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.resume.description{
+    font-weight: 400;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    
+}
+
