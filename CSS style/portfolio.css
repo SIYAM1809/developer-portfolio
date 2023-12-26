@@ -7,7 +7,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 
 .header {
@@ -27,6 +27,7 @@ nav {
     font-size: 20px;
     font-weight: 700;
     background-color: #FD6E0A;
+   
 }
 
 nav ul {
@@ -157,25 +158,125 @@ main {
 }
 .section-title{
     text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+
 }
 .resume-content{
     display: flex;
+    gap: 70px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    
 }
 .resume .title{
     color: var(--Dark-02, #474747);
     font-size: 25px;
     font-weight: 700;
+    
+
 }
 .resume .sub-title{
     color: var(--Dark-03, #757575);
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 20px;
     
 }
 .resume .description{
     font-weight: 400;
     color: var(--Dark-03, #757575);
     font-size: 16px;
+   
     
+}
+.resume-button{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    text-align: center;
+
+}
+.last{
+    background-color: #FFF8F3;
+    
+}
+.last-content{
+    display: flex;
+    gap: 112px;
+}
+.last .sign{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.last-title1{
+    margin-top: 130px;
+    margin-left: 160px;
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+.last-title2{
+    margin-top: 130px;
+    margin-bottom: 28px;
+   
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+.last .description{
+    font-weight: 400;
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 450px;
+}
+.last .N {
+    margin-bottom: 24px;
+    padding: 15px;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+}
+.last .E{
+    margin-bottom: 24px;
+    padding: 15px;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    
+}
+.last .TA{
+    margin-bottom: 24px;
+    padding: 15px;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+}
+.last-btn{
+    height: 65px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5PX;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    margin-bottom: 130px;
 }
 
